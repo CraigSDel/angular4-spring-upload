@@ -43,7 +43,7 @@ hs_err_pid*
 .c9/
 *.launch
 .settings/
-
+*.sublime-workspace
 
 ### NetBeans ###
 nbproject/private/
@@ -54,11 +54,11 @@ nbdist/
 .nb-gradle/
 
 # compiled output
-webapp/dist
-webapp/tmp
+webapp/dist/*
+webapp/tmp/*
 
 # dependencies
-webapp/node_modules
+webapp/node_modules/*
 
 # IDE - VSCode
 .vscode/*
@@ -75,11 +75,18 @@ webapp/libpeerconnection.log
 webapp/npm-debug.log
 webapp/testem.log
 webapp/typings
+webapp/coverage
+webapp/yarn-error.log
 
 # e2e
 webapp/e2e/*.js
 webapp/e2e/*.map
 
-#System Files
+# compiled output
+webapp/dist
+webapp/tmp
+webapp/out-tsc
+
+# System Files
 .DS_Store
 Thumbs.db
