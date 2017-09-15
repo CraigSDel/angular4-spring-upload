@@ -1,3 +1,9 @@
+upload-dir/
+target/
+src/main/webapp/
+
+!.mvn/wrapper/maven-wrapper.jar
+
 # Compiled class file
 *.class
 
@@ -20,3 +26,60 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.c9/
+*.launch
+.settings/
+
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# compiled output
+webapp/dist
+webapp/tmp
+
+# dependencies
+webapp/node_modules
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+webapp/.sass-cache
+webapp/connect.lock
+webapp/coverage/*
+webapp/libpeerconnection.log
+webapp/npm-debug.log
+webapp/testem.log
+webapp/typings
+
+# e2e
+webapp/e2e/*.js
+webapp/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
